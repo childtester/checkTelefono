@@ -20,7 +20,7 @@ Tornare "+391231231234"
 Se arriva "3", "05417723",  "00391231231230"
 Tornare ""
 
-```
+```c#
 using System;
 using System.Collections.Generic;
 
@@ -54,7 +54,7 @@ public static class Telefono
 }
 ```
 #per verificare i numeri che inizia con +39(lunghi 13 caratteri)
-```
+```c#
 using System;
 using System.Collections.Generic;
 
@@ -74,7 +74,7 @@ public static class Telefono
 #per verificari i numeri che iniziano con 0039 (lunghi 14):
 using System;
 using System.Collections.Generic;
-```
+```c#
 
 public static class Telefono
 {
@@ -90,7 +90,7 @@ public static class Telefono
                 }
 ```
 #per verificarev i numeri che iniziano con un 3(lunghi 10 cifre):
-```
+```c#
 public static class Telefono
 {
 
