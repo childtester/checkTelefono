@@ -7,6 +7,8 @@ Ricevuto come parametro un vettore di string, ritornare al chiamante la prima st
 
 Se il numero non viene trovato fa tornare una strunga vuota ""
 
+
+
 ```c#
 using System;
 using System.Collections.Generic;
