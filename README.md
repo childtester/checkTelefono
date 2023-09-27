@@ -59,6 +59,7 @@ for(int i = 0; i < input.Length; i++){
                 return input[i];
             }
 ```
+
 Facico lo stesso controllo per le stringhe con suffisso 0039 con lunghezza 14 caratteri:
 
 ```c
