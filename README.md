@@ -47,6 +47,7 @@ public static class Telefono
 per verificare i numeri che inizia con +39(lunghi 13 caratteri):</summary>
 
 ```c#
+
 using System;
 using System.Collections.Generic;
 
