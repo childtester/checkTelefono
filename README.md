@@ -40,7 +40,10 @@ public static class Telefono
     }
 }
 ```
-#per verificare i numeri che inizia con +39(lunghi 13 caratteri)
+<description>
+<summary>
+# per verificare i numeri che inizia con +39(lunghi 13 caratteri)</summary>
+
 ```c#
 using System;
 using System.Collections.Generic;
@@ -58,6 +61,7 @@ public static class Telefono
                 continue;
                 }
 ```
+</description>
 #per verificari i numeri che iniziano con 0039 (lunghi 14):
 using System;
 using System.Collections.Generic;
