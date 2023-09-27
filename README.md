@@ -42,7 +42,7 @@ public static class Telefono
 }
 ```
 # Procedimento
-Come porima cosa si crea un ciclo per far scorrere le stringhe:
+Continuiamo facendo un controllo su lunghezza e l'inizio del nostro numero di telefono: in caso il numero inizi per  +39, poi dovremmo verificare che la lunghezza della stringa sia di 13 caratteri
 
 ```c#
     for(int i = 0; i < input.Length; i++){
