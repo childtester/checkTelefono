@@ -44,6 +44,7 @@ public static class Telefono
 ```
 # Procedimento
 Come porima cosa si crea un ciclo per far scorrere le stringhe:
+
 ```c#
     for(int i = 0; i < input.Length; i++){
 }
