@@ -41,14 +41,14 @@ public static class Telefono
 }
 ```
 ## Procedimento
-Iniziamo facendo un controllo in caso il numero inizi per  +39, poi dovremmo verificare che la lunghezza della stringa sia di 13 caratteri
+Iniziamo facendo un ciclo for per far scorrere l'array di stringhe:
 
 ```c#
     for(int i = 0; i < input.Length; i++){
 }
 ```
 
-Creo un controllo per  la lunghezza(13 caratteri) e se lcome suffisso ha un +39:
+Iniziamo facendo un controllo in caso il numero inizi per  +39, poi dovremmo verificare che la lunghezza della stringa sia di 13 caratteri:
 
 ```c#
 for(int i = 0; i < input.Length; i++){
