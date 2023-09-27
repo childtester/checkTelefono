@@ -63,10 +63,14 @@ public static class Telefono
 ```
 </details>
 
-#per verificari i numeri che iniziano con 0039 (lunghi 14):
+<details>
+    <summary>
+
+#per verificari i numeri che iniziano con 0039 (lunghi 14):</summary>
+```c#
 using System;
 using System.Collections.Generic;
-```c#
+
 
 public static class Telefono
 {
@@ -81,6 +85,7 @@ public static class Telefono
                 continue;
                 }
 ```
+</details>
 #per verificarev i numeri che iniziano con un 3(lunghi 10 cifre):
 ```c#
 public static class Telefono
