@@ -32,8 +32,7 @@ public static class Telefono
             {
                 return input[i];
 
-            }else
-            {
+            }else{
                 continue;
             }
 
