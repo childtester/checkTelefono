@@ -91,11 +91,13 @@ public static class Telefono
 
 <details>
     <summary>
-per verificarev i numeri che iniziano con un 3(lunghi 10 cifre):</summary>
+    per verificarev i numeri che iniziano con un 3(lunghi 10 cifre):</summary>
+    
 ```c#
+    
 public static class Telefono
 {
-
+    
     public static string Check(string[] input)
     {
         for(int i = 0; i < input.Length; i++){
