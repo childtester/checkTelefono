@@ -41,14 +41,14 @@ public static class Telefono
 }
 ```
 ## Procedimento
-Continuiamo facendo un controllo su lunghezza e l'inizio del nostro numero di telefono: in caso il numero inizi per  +39, poi dovremmo verificare che la lunghezza della stringa sia di 13 caratteri
+Iniziamo facendo un controllo in caso il numero inizi per  +39, poi dovremmo verificare che la lunghezza della stringa sia di 13 caratteri
 
 ```c#
     for(int i = 0; i < input.Length; i++){
 }
 ```
 
-Creo un controllo per controllare la lunghezza(13 caratteri) e se lcome suffisso ha un +39:
+Creo un controllo per  la lunghezza(13 caratteri) e se lcome suffisso ha un +39:
 
 ```c#
 for(int i = 0; i < input.Length; i++){
@@ -58,7 +58,7 @@ for(int i = 0; i < input.Length; i++){
             }
 ```
 
-Facico lo stesso controllo per le stringhe con suffisso 0039 con lunghezza 14 caratteri:
+Faccio lo stesso controllo per accertarmi se le stringhe abbiano conme suffisso 0039 con una lunghezza di 14 caratteri:
 
 ```c
 if(input[i][0] == '0' && input[i][1] == '0' && input[i][2] == '3' && input[i][3] == '9' && input[i].Length == 14);
