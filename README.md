@@ -1,4 +1,4 @@
-## checkTelefono
+### checkTelefono
 
 Ricevuto come parametro un vettore di string, ritornare al chiamante la prima stringa che assomiglia molto ad un numero di telefono cellulare italiano ovvero:
 - che inizia con +39 (esattamente lungo  13)
@@ -48,6 +48,36 @@ Come porima cosa si crea un ciclo per far scorrere le stringhe:
 ```c#
     for(int i = 0; i < input.Length; i++){
 }
+```
+
+Creo un controllo per controllare la lunghezza(13 caratteri) e se lcome suffisso ha un +39:
+
+```c#
+for(int i = 0; i < input.Length; i++){
+            if(input[i][0] == '+' && input[i][1] == '3' && input[i][2] == '9' && input[i].Length == 13);
+            {
+                return input[i];
+            }
+```
+Facico lo stesso controllo per le stringhe con suffisso 0039 con lunghezza 14 caratteri:
+
+```c
+if(input[i][0] == '0' && input[i][1] == '0' && input[i][2] == '3' && input[i][3] == '9' && input[i].Length == 14);
+            {
+
+                return input[i];
+            }
+
+```
+
+finisco con un ultimo controllo per le stringhe lunghe 10 caratteri con cifra iniziale 3:
+
+```c#
+    if(input[i][0]== '3' && input[i].Length == 10);
+            {
+                return input[i];
+
+            }
 ```
 
 
