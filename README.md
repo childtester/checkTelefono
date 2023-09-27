@@ -42,7 +42,7 @@ public static class Telefono
 ```
 <details>
     <summary>
-# per verificare i numeri che inizia con +39(lunghi 13 caratteri) </summary>
+# per verificare i numeri che inizia con +39(lunghi 13 caratteri):</summary>
 
 ```c#
 using System;
