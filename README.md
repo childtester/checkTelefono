@@ -10,8 +10,7 @@ Se il numero non viene trovato fa tornare una strunga vuota ""
 
 
 ```c#
-using System;
-using System.Collections.Generic;
+
 
 public static class Telefono
 {
@@ -87,8 +86,7 @@ Per verificare i numeri che inizia con +39(lunghi 13 caratteri):</summary>
 
 ```c#
 
-using System;
-using System.Collections.Generic;
+
 
 public static class Telefono
 {
@@ -111,8 +109,7 @@ public static class Telefono
     
 ```c#
     
-using System;
-using System.Collections.Generic;
+
 
 
 public static class Telefono
@@ -137,7 +134,7 @@ public static class Telefono
     
 ```c#
     
-public static class Telefono
+
 {
     
     public static string Check(string[] input)
