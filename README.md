@@ -42,9 +42,17 @@ public static class Telefono
     }
 }
 ```
+# Procedimento
+Come porima cosa si crea un ciclo per far scorrere le stringhe:
+```c#
+    for(int i = 0; i < input.Length; i++){
+}
+```
+
+
 <details>
     <summary>
-per verificare i numeri che inizia con +39(lunghi 13 caratteri):</summary>
+Per verificare i numeri che inizia con +39(lunghi 13 caratteri):</summary>
 
 ```c#
 
@@ -68,7 +76,7 @@ public static class Telefono
 
 <details>
     <summary>
-    per verificari i numeri che iniziano con 0039 (lunghi 14):</summary>
+    Per verificari i numeri che iniziano con 0039 (lunghi 14):</summary>
     
 ```c#
     
@@ -94,7 +102,7 @@ public static class Telefono
 
 <details>
     <summary>
-    per verificarev i numeri che iniziano con un 3(lunghi 10 cifre):</summary>
+    Per verificarev i numeri che iniziano con un 3(lunghi 10 cifre):</summary>
     
 ```c#
     
