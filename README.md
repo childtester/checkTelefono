@@ -42,7 +42,7 @@ public static class Telefono
 ```
 <details>
     <summary>
-# per verificare i numeri che inizia con +39(lunghi 13 caratteri):</summary>
+per verificare i numeri che inizia con +39(lunghi 13 caratteri):</summary>
 
 ```c#
 using System;
@@ -65,7 +65,7 @@ public static class Telefono
 
 <details>
     <summary>
-    #per verificari i numeri che iniziano con 0039 (lunghi 14):</summary>
+    per verificari i numeri che iniziano con 0039 (lunghi 14):</summary>
 ```c#
 using System;
 using System.Collections.Generic;
@@ -89,7 +89,7 @@ public static class Telefono
 
 <details>
     <summary>
-#per verificarev i numeri che iniziano con un 3(lunghi 10 cifre):</summary>
+per verificarev i numeri che iniziano con un 3(lunghi 10 cifre):</summary>
 ```c#
 public static class Telefono
 {
