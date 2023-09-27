@@ -1,4 +1,4 @@
-### checkTelefono
+# checkTelefono
 
 Ricevuto come parametro un vettore di string, ritornare al chiamante la prima stringa che assomiglia molto ad un numero di telefono cellulare italiano ovvero:
 - che inizia con +39 (esattamente lungo  13)
@@ -40,7 +40,7 @@ public static class Telefono
     }
 }
 ```
-# Procedimento
+## Procedimento
 Continuiamo facendo un controllo su lunghezza e l'inizio del nostro numero di telefono: in caso il numero inizi per  +39, poi dovremmo verificare che la lunghezza della stringa sia di 13 caratteri
 
 ```c#
